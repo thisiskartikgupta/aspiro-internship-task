@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap'); /* category font */
+@import url('https://fonts.googleapis.com/css2?family=Volkhov:wght@700&display=swap'); /* subheading font */
+
+.bookatrip-section {
+  margin: 5% 10% 0% 10%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.bookatrip-section .category {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  
+  line-height: 27px;
+  text-align: left;
+  color: #5E6282;
+}
+
+.bookatrip-section .subheading {
+  
+  font-family: Volkhov;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 64px;
+
+  text-align: left;
+  text-transform: capitalize;
+
+  color: #14183E;
+}

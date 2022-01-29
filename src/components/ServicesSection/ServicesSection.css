@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap'); /* category font */
+@import url('https://fonts.googleapis.com/css2?family=Volkhov:wght@700&display=swap'); /* subheading font */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap'); /* card title font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap'); /* card description font */
+
+.services-section {
+  margin-top: 10%;
+}
+
+.services-section .category {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  
+  line-height: 27px;
+  text-align: center;
+  color: #5E6282;
+}
+
+.services-section .subheading {
+  
+  font-family: Volkhov;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 64px;
+
+  text-align: center;
+  text-transform: capitalize;
+
+  color: #14183E;
+}
+
+.services-section .svg {
+  position: absolute;
+
+  left: 85%;
+  top: 110%;
+}
+
+.bottom-svg {
+  position:absolute;
+  z-index: -3;
+  left: 30%;
+  top: 155%;
+}
+
+.services-section .card-container {
+  margin: 5%;
+  display:flex;
+  flex-direction: row;
+  justify-content:space-around;
+}
+
+.card-container .card {
+  border: 1px solid #FFF;
+  border-radius: 36px;
+  width: 15%;
+  background-color: #FFF;
+}
+
+.card-container .card:hover {
+  box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.02),
+   0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852), 
+   0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481),
+   0px 20px 13px rgba(0, 0, 0, 0.01), 
+   0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185),
+    0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481);
+  transform: scale(1.1);
+  transition: transform .25s ease;
+}
+
+.title {
+  text-align: center;
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.25em;
+  line-height: 27px;
+  text-align: center;
+
+  color: #1E1D4C;
+}
+
+.card-svg-1 {
+  
+  height: 30%;
+  display: block;
+  margin: 10% auto 10% auto;
+}
+
+.card-svg-2 {
+  
+  height: 45%;
+  display: block;
+  margin: 1% auto 0% auto;
+}
+
+.card-svg-3 {
+  
+  height: 30%;
+  display: block;
+  margin: 13% auto 7% auto;
+}
+
+.card-svg-4 {
+  
+  height: 25%;
+  display: block;
+  margin: 13% auto 12% auto;
+}
+
+.description {
+  padding: 10%;
+  text-align: center;
+
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+
+  color: #5E6282;
+}
+

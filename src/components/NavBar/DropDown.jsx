@@ -13,7 +13,7 @@ const DropDown = () => {
     <div className="DropDown">
       <div className="display">
         <div className="selected">{data[selectedIndex]}&nbsp;&nbsp;&nbsp;</div>
-        <img className={showHidden ? 'img' : 'img reverse'} 
+        <img className={!showHidden ? 'img' : 'img reverse'} 
              src={arrowDown}
              onClick={() => setShowHidden(!showHidden)}/>
       </div>
