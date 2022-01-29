@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap'); /* heading font */ 
+@import url('https://fonts.googleapis.com/css2?family=Volkhov:wght@700&display=swap'); /* subheading font*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap'); /* details font*/
+
+@import url(https://fonts.googleapis.com/css?family=Google+Sans:100,300,400,500,700,900,100i,300i,400i,500i,700i,900i); /* find out more font*/
+
+.hero-section {
+  margin-top: 2%;
+  padding: 2% 10%;
+}
+
+.hero-section .heading {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  color: #DF6951;
+  font-size:1.25em;
+}
+
+.hero-section .subheading {
+  margin-top: 1%;
+  font-family: 'Volkhov', serif;
+  color: #181E4B;
+  font-size: 5.25em;
+  line-height: 89px;
+}
+
+.hero-section .content {
+  margin-top: 1%;
+  font-family: 'Poppins', sans serif;
+  font-weight: 500;
+  color: #5E6282;
+  font-size: 1em;
+  line-height:30px;
+}
+
+.hero-section .container {
+  width: 25%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.find-out-more {
+  font-family: 'Google sans';
+  font-size: 1em;
+  color: #FFF;
+  background-color: #F1A501;
+  border: 2px solid #F1A501;
+  padding:3% 5%;
+  border-radius:10px;
+}
+
+.find-out-more:hover {
+  color: #F1A501;
+  background-color: #FFF;
+  transform: scale(1.1);
+  transition: transform .5s ease;
+}
+
+.play-btn {
+  padding-top: 30px;
+}
+
+.play-btn:hover {
+  transform: scale(1.1);
+  transition: transform .5s ease;
+}
+
+.play-description {
+  font-family: 'Poppins', sans serif;
+  font-weight: 500;
+  color: #686D77;
+}
+
+.highlight {
+  position: absolute;
+  left: 25%;
+  top: 37%;
+  z-index:-2;
+}
