@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap'); /* category font */
 @import url('https://fonts.googleapis.com/css2?family=Volkhov:wght@700&display=swap'); /* subheading font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap'); /* step title font */ 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap'); /* step description font */
 
 .bookatrip-section {
-  margin: 5% 10% 0% 10%;
+  margin: 0% 10% 0% 10%;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -31,4 +33,57 @@
   text-transform: capitalize;
 
   color: #14183E;
+}
+
+.step-container {
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.step {
+  display:flex;
+  flex-direction: row;
+  margin-top: 8%;
+  border: 1px solid #FFF;
+  padding: 2% 5%;
+  border-radius: 36px;
+}
+
+.step-image {
+  width:15%;
+  margin-right: 10%;
+}
+
+.step-detail {
+  display: flex;
+  flex-direction: column;
+}
+
+.step-heading {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 124.5%;
+
+  color: #5E6282;
+}
+
+.step-description {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 124.5%;
+
+  color: #5E6282;
+}
+
+.twitter-svg {
+  position: absolute;
+
+  left: 80%;
+  top: 380%;
+  
 }
