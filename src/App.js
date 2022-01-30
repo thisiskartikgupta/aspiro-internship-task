@@ -14,6 +14,7 @@ import Footer from './components/Footer/Footer';
 import HeroEllipseSVG from './assets/svg/hero_ellipse.svg';
 import HeroCurveSVG from './assets/svg/hero_curve.svg';
 import HeroTravellerSVG from './assets/svg/hero_traveller.svg';
+import FooterDecoreSVG from './assets/svg/footer_decore.svg';
 
 import './App.css';
 
@@ -36,7 +37,9 @@ const App = () => {
 
       <footer>
         <Footer/>
+        <div className="all-rights-reserved">All rights reserved@jadoo.co</div>
       </footer>
+      <img className="footer-decore" src={FooterDecoreSVG}/>
     </div>
   );
 };

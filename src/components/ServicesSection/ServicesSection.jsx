@@ -35,7 +35,7 @@ const ServicesSection = () => {
   ];
 
   return (
-    <div className="services-section">
+    <div id="services" className="services-section">
       <div className="category">CATEGORY</div>
       <div className="subheading">We Offer Best Services</div>
       <img className="svg" src={ServicesSectionSVG}/>

@@ -10,7 +10,7 @@ import './DestinationSection.css';
 
 const DestinationSection = () => {
   return (
-    <div className="destination-section">
+    <div id="destination" className="destination-section">
       <div className="category">Top Selling</div>
       <div className="subheading">Top Destinations</div>
       <img className="decore-svg" src={DestinationDecoreSVG}/>

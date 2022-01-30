@@ -5,18 +5,15 @@ import BookATripSVG from '../../assets/svg/bookatrip.svg';
 import BookATripStep1SVG from '../../assets/svg/bookatrip1.svg';
 import BookATripStep2SVG from '../../assets/svg/bookatrip2.svg';
 import BookATripStep3SVG from '../../assets/svg/bookatrip3.svg';
-import TwitterSVG from '../../assets/svg/twitter.svg';
-
 import './BookATripSection.css';
 
 const BookATripSection = () => {
   return (
-    <div className="bookatrip-section">
+    <div id="book-a-trip" className="bookatrip-section">
       <div>
         <div className="category">Easy and Fast</div>
         <div className="subheading">Book Your Next Trip</div>
         <div className="subheading">In 3 Easy Steps</div>
-        <img className="twitter-svg" src={TwitterSVG}/>
         <div className="step-container">
           <div className="step">
             <img className="step-image" src={BookATripStep1SVG}/>

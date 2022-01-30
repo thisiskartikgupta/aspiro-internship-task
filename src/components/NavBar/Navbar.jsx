@@ -11,16 +11,16 @@ const NavBar = () => {
       <img className="logo" src={JadooLogo} alt="Jadoo"/>
       <ol className="list">
         <li className="list-item">
-          <a href="#">Destinations</a>
+          <a href="#destination">Destinations</a>
         </li>
         <li className="list-item">
-          <a href="#">Hotels</a>
+          <a href="#services">Hotels</a>
         </li>
         <li className="list-item">
           <a href="#">Flights</a>
         </li>
         <li className="list-item">
-          <a href="#">Bookings</a>
+          <a href="#book-a-trip">Bookings</a>
         </li>
       </ol>
       <button className="button login">Login</button>
