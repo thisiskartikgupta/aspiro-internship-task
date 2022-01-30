@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 .subscribe-section {
   margin: 5% 10% 0% 10%;
@@ -33,6 +34,15 @@ color: #000;
   border-radius: 129px 20px 20px 20px;
   background-color: #DFD7F9;
   margin: 100px auto;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  text-align: center;
+
+  /* white */
+
+  color: #FFFFFF;
 }
 
 .subscribe-box-text {
@@ -98,4 +108,45 @@ color: #000;
   height:20%;
   left:80%;
   top: 414%;
+}
+
+.input_container {
+  position:relative;
+  padding:0;
+  margin:0;
+}
+.input {
+  height:20px;
+  margin:0;
+  padding-left: 50px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+
+
+  color: #39425D;
+}
+.input_img {
+  position:relative;
+  top: 5.62px;
+  left:-51%;
+  width:3%;
+  height:3%;
+  z-index: 1;
+}
+
+.subscribe-boxinput_container {
+  width: 90%;
+}
+
+.subscribe-btn {
+  position: relative;
+  left: 25%;
+  top: -52.47px;
+}
+
+.subscribe-box-input {
+  margin-right:25%;
 }

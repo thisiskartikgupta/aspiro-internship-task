@@ -15,7 +15,7 @@ const Footer = () => {
       <div className="column-1">
         <div className="jadoo">Jadoo.</div>
         <div className="jadoo-subheading">
-          Book your trip in minute, get full <br/>Control for much longer.
+          Book your trip in minute, get full Control for much longer.
         </div>
       </div>
       <div className="column-2">
