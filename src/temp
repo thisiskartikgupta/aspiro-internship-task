@@ -1,0 +1,64 @@
+.App {
+  /* padding: 2% 10%; */
+  transition: all 2.5s;
+}
+
+
+/* Ellipse 8 */
+
+.ellipse {
+  position: absolute;
+  width: 478.94px;
+  height: 496.86px;
+  left: -420px;
+  top: -59.84px;
+  
+  background: #D5AEE4;
+  opacity: 0.3;
+  filter: blur(150px);
+  }
+
+.hero-curve {
+  /* position: absolute; */
+/* width: 766.31px;
+height: 872.58px;
+left: 736px;
+top: -149px; */
+/* z-index:-2;
+position:absolute;*/
+background: rgba(255,241,218,0); 
+position: absolute;
+z-index:-2;
+width: 48%;
+height:100%;
+left: 55%;
+top: -10%;
+}
+
+.hero-traveller {
+  position:absolute;
+  z-index:-2;
+  width:35%;
+  left:50%;
+  top:15%;
+}
+
+.footer-decore {
+  position:fixed;
+  width:20%;
+  left:80%;
+  bottom:0%;
+}
+
+.all-rights-reserved {
+  
+  margin: 3% 10% 1% 10%;
+  text-align: center;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 124.5%;
+
+  color: #5E6282;
+}

@@ -25,7 +25,7 @@ const ServicesSection = () => {
     {
       title: 'Local Events',
       description:
-      'Barton vanity itself do in it. Preferd to men it engrossed listening.',
+      'Barton vanity itself do in it. Preferred to men it engrossed listening.',
     },
     {
       title: 'Customization',
@@ -36,11 +36,15 @@ const ServicesSection = () => {
 
   return (
     <div id="services" className="services-section">
+
       <div className="category">CATEGORY</div>
       <div className="subheading">We Offer Best Services</div>
+
       <img className="svg" src={ServicesSectionSVG}/>
       <img className="bottom-svg" src={ServicesBottomSVG}/>
+
       <div className="card-container">
+
         <div className="card">
           <img className="card-svg-1" src={ServicesSVG1}/>
           <div className="title">{data[0].title}</div>

@@ -11,20 +11,22 @@ import './DestinationSection.css';
 const DestinationSection = () => {
   return (
     <div id="destination" className="destination-section">
+
       <div className="category">Top Selling</div>
       <div className="subheading">Top Destinations</div>
       <img className="decore-svg" src={DestinationDecoreSVG}/>
+
       <div className="card-container">
         <div className="destination-card">
-          <img src={DestinationRomeSVG}/>
+          <img className="destination-card" src={DestinationRomeSVG}/>
         </div>
 
         <div className="destination-card">
-          <img src={DestinationLondonSVG}/>
+          <img className="destination-card" src={DestinationLondonSVG}/>
         </div>
 
         <div className="destination-card">
-          <img src={DestinationEuropeSVG}/>
+          <img className="destination-card" src={DestinationEuropeSVG}/>
         </div>
       </div>
     </div>

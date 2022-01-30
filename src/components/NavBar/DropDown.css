@@ -1,5 +1,5 @@
 
-.DropDown .display {
+.dropdown .display {
   display: flex;
   margin-left: 2%;
 }
@@ -9,12 +9,12 @@
   font-weight: 700;
 }
 
-.DropDown .img {
+.dropdown .img {
   min-width: 2%;
   margin-left: 1%;
 } 
 
-.DropDown .img.reverse {
+.dropdown .img.reverse {
   margin-left: 1%;
   transform: rotate(180deg);
 }

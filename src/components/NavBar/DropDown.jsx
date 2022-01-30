@@ -1,6 +1,6 @@
 /*eslint-disable*/
 import React, {useState} from 'react';
-import arrowDown from '../../assets/svg/arrow_down.svg';
+import ArrowDownSVG from '../../assets/svg/arrow_down.svg';
 
 import './DropDown.css';
 
@@ -10,14 +10,16 @@ const DropDown = () => {
   const [selectedIndex, setSelectedIndex] = useState(0);
 
   return (
-    <div className="DropDown">
+    <div className="dropdown">
       <div className="display">
-        <div className="selected">{data[selectedIndex]}&nbsp;&nbsp;&nbsp;</div>
+        <div className="selected-item">{data[selectedIndex]}&nbsp;&nbsp;&nbsp;</div>
         <img className={!showHidden ? 'img' : 'img reverse'} 
-             src={arrowDown}
+             src={ArrowDownSVG}
              onClick={() => setShowHidden(!showHidden)}/>
       </div>
-      {/* {showHidden ? "dikhao" : <div></div>} */}
+      <div className="dropdown details">
+        {/* {showHidden ? "dikhao" : <div></div>} */}
+      </div>
     </div>
   );
 };

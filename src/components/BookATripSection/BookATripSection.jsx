@@ -51,7 +51,7 @@ const BookATripSection = () => {
 
       </div>
       <div>
-        <img src={BookATripSVG}/>
+        <img className="book-a-trip-svg" src={BookATripSVG}/>
       </div>
     </div>
   );

@@ -11,53 +11,41 @@
   font-family: Poppins;
   font-style: normal;
   font-weight: 600;
-  font-size: 18px;
-  
-  line-height: 27px;
   text-align: center;
   color: #5E6282;
+  font-size: 1.1em;
 }
 
 .services-section .subheading {
-  
   font-family: Volkhov;
   font-style: normal;
   font-weight: bold;
-  font-size: 50px;
-  line-height: 64px;
-
   text-align: center;
   text-transform: capitalize;
-
   color: #14183E;
+  font-size: 1.8em;
 }
 
 .services-section .svg {
   position: absolute;
-
-  left: 85%;
+  width: 20%;
+  left: 80%;
   top: 110%;
-}
-
-.bottom-svg {
-  position:absolute;
-  z-index: -3;
-  left: 30%;
-  top: 155%;
 }
 
 .services-section .card-container {
   margin: 5%;
-  display:flex;
-  flex-direction: row;
-  justify-content:space-around;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .card-container .card {
   border: 1px solid #FFF;
   border-radius: 36px;
-  width: 15%;
   background-color: #FFF;
+  width: 50%;
 }
 
 .card-container .card:hover {
@@ -67,7 +55,7 @@
    0px 20px 13px rgba(0, 0, 0, 0.01), 
    0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185),
     0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481);
-  transform: scale(1.1);
+  transform: scale(1.01);
   transition: transform .25s ease;
 }
 
@@ -77,15 +65,24 @@
   font-family: Open Sans;
   font-style: normal;
   font-weight: 600;
-  font-size: 1.25em;
-  line-height: 27px;
+  font-size: 1em;
   text-align: center;
 
   color: #1E1D4C;
 }
 
+.description {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.9em;
+  text-align: center;
+  color: #5E6282;
+  padding: 5%; 
+}
+
 .card-svg-1 {
-  
+    
   height: 30%;
   display: block;
   margin: 10% auto 10% auto;
@@ -112,16 +109,86 @@
   margin: 13% auto 12% auto;
 }
 
-.description {
-  padding: 10%;
-  text-align: center;
-
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 26px;
-
-  color: #5E6282;
+.bottom-svg {
+  position:absolute;
+  z-index: -3;
+  left: 20%;
+  top: 190%;
 }
 
+@media(min-width: 1024px) {
+  
+  .services-section .subheading {
+    font-size: 2.5rem;
+  }
+
+  .services-section .svg {
+    width: 10%;
+    top: 90%;
+  }
+
+  .services-section .card-container {
+    margin-top: 0%;
+    flex-direction: row;
+  }
+
+  .card-container .card {
+    width: 20%;
+    margin-top: 8%;
+  }
+
+  .card-container .card:hover {
+    transform: scale(1.1);
+  }
+
+  .title {
+    font-size: 1.1em;
+  }
+
+  .description {
+    font-size: 0.9em;
+    padding: 10%;
+  }
+
+  .bottom-svg {
+    position:absolute;
+    z-index: -3;
+    left: 25%;
+    top: 145%;
+  }
+
+}
+
+@media(min-width: 1440px) {
+  
+  .services-section .subheading {    
+    font-size: 3.2em;
+  }
+  
+  .services-section .svg {
+    width: 10%;
+    left: 85%;
+    top: 100%;
+  }
+  
+  .bottom-svg {
+    position:absolute;
+    z-index: -3;
+    left: 30%;
+    top: 155%;
+  }
+  
+  .card-container .card {
+    width: 15%;
+  }
+
+  .title {
+    font-size: 1.2em;
+  }
+
+  .description {
+    padding: 10%; 
+    font-size: 1em;
+    line-height: 26px;
+  }
+}

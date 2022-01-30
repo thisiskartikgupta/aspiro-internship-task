@@ -14,9 +14,7 @@
   font-family: Poppins;
   font-style: normal;
   font-weight: 600;
-  font-size: 18px;
-  
-  line-height: 27px;
+  font-size: 1.1em;
   text-align: left;
   color: #5E6282;
 }
@@ -26,13 +24,10 @@
   font-family: Volkhov;
   font-style: normal;
   font-weight: bold;
-  font-size: 50px;
-  line-height: 64px;
-
   text-align: left;
   text-transform: capitalize;
-
   color: #14183E;
+  font-size: 1.8em;
 }
 
 .step-container {
@@ -41,17 +36,20 @@
   justify-content: space-between;
 }
 
+.book-a-trip-svg {
+  display:none;
+}
+
 .step {
   display:flex;
   flex-direction: row;
   margin-top: 8%;
-  border: 1px solid #FFF;
-  padding: 2% 5%;
+  padding: 5% 2%;
   border-radius: 36px;
 }
 
 .step-image {
-  width:15%;
+  width: 20%;
   margin-right: 10%;
 }
 
@@ -64,26 +62,64 @@
   font-family: Poppins;
   font-style: normal;
   font-weight: bold;
-  font-size: 16px;
-  line-height: 124.5%;
-
   color: #5E6282;
+  font-size: 1em;
 }
 
 .step-description {
   font-family: Poppins;
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
-  line-height: 124.5%;
-
   color: #5E6282;
+  font-size: 0.9em;
+
 }
 
-.twitter-svg {
-  position: absolute;
+@media(min-width: 1024px) {
 
-  left: 80%;
-  top: 380%;
+  .book-a-trip-svg {
+    display: block;
+    width: 100%;
+  }
+
+  .bookatrip-section .subheading {
+    font-size: 2.5em;
+  }
+
+  .step {
+    padding: 2% 5%;
+  }
+
+  .step-image {
+    width:15%;
+  }
+
+  .step-description {
+    font-size: 0.9em;
+  }
+}
+
+@media(min-width: 1440px) {
+    
+  .bookatrip-section .subheading {   
+    font-size: 3.2em;
+  }
   
+  .step-heading {
+    
+    font-size: 16px;
+    line-height: 124.5%;
+  }
+  
+  .step-description {
+    
+    font-size: 16px;
+    line-height: 124.5%;
+  
+  }
+
+  .book-a-trip-svg {
+    display: block;
+    width: 100%;
+  }
 }

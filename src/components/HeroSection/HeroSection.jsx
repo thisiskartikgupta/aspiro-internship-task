@@ -8,17 +8,17 @@ import './HeroSection.css';
 const HeroSection = () => {
   return (
     <div className="hero-section">
+
       <div className="heading">BEST DESTINATIONS AROUND THE WORLD</div>
       <div className="subheading">
-        <div>Travel, enjoy</div>
-        <div>and live a new</div>
-        <div>and full life</div>
+        Travel, enjoy<br/>and live a new<br/>and full life
       </div>
       <div className="content">
         <div>Built Wicket longer admire do barton vanity itself do in it.</div>
         <div>Preferred to sportsmen it engrossed listening. Park gate</div>
         <div>sell they west hard for the.</div>
       </div>
+
       <div className="container">
         <button className="find-out-more">Find Out More</button>
         <img className="play-btn" src={PlaySVG}/>
