@@ -1,3 +1,10 @@
+# ASPIRO INTERNSHIP TASK | Jadoo.com | Kartik Gupta
+
+- A single-page application (SPA) developed using ReactJS.
+- The application is deployed on AWS Amplify.
+- Head to the link : [Jadoo.com | Kartik Gupta](https://main.d2xh8wgmok9wkj.amplifyapp.com/)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
