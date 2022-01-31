@@ -1,4 +1,4 @@
-# ASPIRO INTERNSHIP TASK | Jadoo.com | Kartik Gupta
+## ASPIRO INTERNSHIP TASK | Jadoo.com | Kartik Gupta
 
 - A single-page application (SPA) developed using ReactJS.
 - The application is deployed on AWS Amplify.
